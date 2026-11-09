@@ -1,5 +1,9 @@
 # Colab follow-up: prepared, awaiting GPU capacity
 
+**Superseded execution plan:** The owner subsequently chose 50 epochs and asked
+to run locally. See [LOCAL50.md](LOCAL50.md). The Colab files below preserve the
+earlier 20-epoch preparation; they are not the configuration of the local run.
+
 On 2026-11-09 the owner authorized running the 20-epoch follow-up in the open
 Chrome Colab notebook, including uploading the required data. The empty Fine
 Tuning code cell was filled and Colab confirmed **All changes saved**. Existing

@@ -7,8 +7,8 @@ camera viewpoints are later work. A detected person is not a unique visitor.
 
 The experiment specification is tracked in [GitHub issue #1](https://github.com/samikayyal/gravity-camera-system/issues/1).
 See [the experiment record](experiments/camera1/REPORT.md) for measured results and limitations.
-The [20-epoch Colab follow-up](experiments/camera1/COLAB.md) is prepared but awaiting
-GPU capacity; it has not produced additional training results.
+The [Colab follow-up](experiments/camera1/COLAB.md) was prepared but could not get
+GPU capacity. The owner subsequently requested [50 epochs locally](experiments/camera1/LOCAL50.md).
 
 ## Setup
 
