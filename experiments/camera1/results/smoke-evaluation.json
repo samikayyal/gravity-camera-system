@@ -1,0 +1,66 @@
+{
+  "model": "last.pt",
+  "model_sha256": "7f8a62469d2c7395df75350862218357f9fdd07adddbd16afe1a25a039266766",
+  "manifest_sha256": "250bb16c086dbde0b80ebca90b6436e32b853ebd43f5c6da8a92fb4a5a7c54aa",
+  "settings": {
+    "imgsz": 640,
+    "device": "cpu",
+    "batch": 1,
+    "workers": 0,
+    "rect": false,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "classes": [
+      0
+    ],
+    "augment": false,
+    "seed": 42,
+    "deterministic": true,
+    "quantize": 32
+  },
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.22624-SP0",
+    "processor": "AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD",
+    "cpu_threads": 7,
+    "cuda_available": false,
+    "packages": {
+      "ultralytics": "8.4.204",
+      "torch": "2.15.0",
+      "torchvision": "0.29.2",
+      "numpy": "2.5.4",
+      "opencv-python": "5.0.0.93",
+      "psutil": "7.2.2"
+    },
+    "process_peak_memory_bytes": 446808064,
+    "process_rss_bytes": 428679168
+  },
+  "metrics": {
+    "metrics/precision(B)": 0.5821047646454619,
+    "metrics/recall(B)": 0.45390070921985815,
+    "metrics/mAP50(B)": 0.4541335633742454,
+    "metrics/mAP50-95(B)": 0.25128897376575327,
+    "fitness": 0.25128897376575327
+  },
+  "fixed_threshold": {
+    "confidence": 0.25,
+    "match_iou": 0.5,
+    "tp": 64,
+    "fp": 45,
+    "fn": 77,
+    "empty_images": 16,
+    "empty_images_with_fp": 0,
+    "empty_frame_fp": 0,
+    "precision": 0.5871559633027523,
+    "recall": 0.45390070921985815
+  },
+  "timing": {
+    "method": "5 warmups then batch-1 loaded-image predict; includes preprocessing and postprocessing; excludes decoding",
+    "mean_ms": 203.72214117646854,
+    "median_ms": 180.60860000014145,
+    "p95_ms": 304.09534999989773,
+    "fps": 4.908646621447879,
+    "evaluation_seconds": 31.906786099999863
+  }
+}

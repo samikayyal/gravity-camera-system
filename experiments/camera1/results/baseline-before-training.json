@@ -1,0 +1,66 @@
+{
+  "model": "yolo26n.pt",
+  "model_sha256": "9b09cc8bf347f0fc8a5f7657480587f25db09b34bf33b0652110fb03a8ad4fef",
+  "manifest_sha256": "250bb16c086dbde0b80ebca90b6436e32b853ebd43f5c6da8a92fb4a5a7c54aa",
+  "settings": {
+    "imgsz": 640,
+    "device": "cpu",
+    "batch": 1,
+    "workers": 0,
+    "rect": false,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "classes": [
+      0
+    ],
+    "augment": false,
+    "seed": 42,
+    "deterministic": true,
+    "quantize": 32
+  },
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.22624-SP0",
+    "processor": "AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD",
+    "cpu_threads": 7,
+    "cuda_available": false,
+    "packages": {
+      "ultralytics": "8.4.204",
+      "torch": "2.15.0",
+      "torchvision": "0.29.2",
+      "numpy": "2.5.4",
+      "opencv-python": "5.0.0.93",
+      "psutil": "7.2.2"
+    },
+    "process_peak_memory_bytes": 456044544,
+    "process_rss_bytes": 437141504
+  },
+  "metrics": {
+    "metrics/precision(B)": 0.20430798197993275,
+    "metrics/recall(B)": 0.14184397163120568,
+    "metrics/mAP50(B)": 0.08846217905992448,
+    "metrics/mAP50-95(B)": 0.051470680705623696,
+    "fitness": 0.051470680705623696
+  },
+  "fixed_threshold": {
+    "confidence": 0.25,
+    "match_iou": 0.5,
+    "tp": 6,
+    "fp": 23,
+    "fn": 135,
+    "empty_images": 16,
+    "empty_images_with_fp": 3,
+    "empty_frame_fp": 3,
+    "precision": 0.20689655172413793,
+    "recall": 0.0425531914893617
+  },
+  "timing": {
+    "method": "5 warmups then batch-1 loaded-image predict; includes preprocessing and postprocessing; excludes decoding",
+    "mean_ms": 222.5108117647243,
+    "median_ms": 196.79470000005495,
+    "p95_ms": 357.9582500001379,
+    "fps": 4.494163641168895,
+    "evaluation_seconds": 47.26788180000017
+  }
+}

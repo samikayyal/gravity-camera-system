@@ -15,5 +15,7 @@ data/
 # Models
 *.pt
 
-# Lock files
-uv.lock
+# Private generated experiment artifacts
+runs/
+.pytest_cache/
+.ruff_cache/

@@ -1,0 +1,7 @@
+{
+  "block_seconds": 60,
+  "gap_seconds": 30,
+  "validation_blocks": {"day1": [2], "day2": [1, 10]},
+  "selection_reason": "Selected from annotation counts and source-image review before inference: a busy Day 1 block, a mostly empty Day 2 block, and a busy Day 2 block. Increased the proposed 15-second gap to 30 seconds because activity continues across boundaries. Same-session correlation remains.",
+  "comparison_frames": ["cam01_0024.jpg", "cam01_0030.jpg", "cam01_0035.jpg", "camera_1_2_0020.jpg", "camera_1_2_0030.jpg", "camera_1_2_0038.jpg", "camera_1_2_0197.jpg", "camera_1_2_0205.jpg", "camera_1_2_0215.jpg"]
+}
