@@ -11,3 +11,9 @@ wheels/
 
 #data
 data/
+
+# Models
+*.pt
+
+# Lock files
+uv.lock
