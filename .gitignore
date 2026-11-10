@@ -19,3 +19,6 @@ data/
 runs/
 .pytest_cache/
 .ruff_cache/
+
+# Local one-off helpers and temporary working files
+.scratch/

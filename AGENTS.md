@@ -7,6 +7,13 @@ Use `uv` for all Python work:
 - Run Python files with `uv run <file.py>`.
 - Run Python tools with `uv run <tool>`.
 
+## Scratch files
+
+Create one-off helper scripts, bundle builders, temporary notes, drafts, and
+review images under `.scratch/`. This directory is local and ignored by Git.
+Keep maintained program code, tests, configuration, and durable documentation
+in their normal project locations; keep training outputs and checkpoints in `runs/`.
+
 ## Agent skills
 
 ### Issue tracker
