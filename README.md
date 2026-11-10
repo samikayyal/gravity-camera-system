@@ -8,7 +8,10 @@ camera viewpoints are later work. A detected person is not a unique visitor.
 The experiment specification is tracked in [GitHub issue #1](https://github.com/samikayyal/gravity-camera-system/issues/1).
 See [the experiment record](experiments/camera1/REPORT.md) for measured results and limitations.
 The [Colab follow-up](experiments/camera1/COLAB.md) was prepared but could not get
-GPU capacity. The owner subsequently requested [50 epochs locally](experiments/camera1/LOCAL50.md).
+GPU capacity. The subsequent [50-epoch local run](experiments/camera1/LOCAL50.md)
+completed: validation mAP50 reached **88.21%**. At confidence 0.25, it detected
+125 of 141 annotated people, with 65 unmatched detections and 16 misses.
+This remains development validation; a new recording is needed for testing.
 
 ## Setup
 

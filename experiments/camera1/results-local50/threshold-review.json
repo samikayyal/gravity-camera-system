@@ -1,0 +1,45 @@
+{
+  "method": "Post-hoc filtering of saved predictions at confidence >=0.25; one-to-one matching at IoU 0.50. Development analysis only; original evaluation unchanged. No new inference or NMS.",
+  "results": [
+    {
+      "confidence": 0.25,
+      "tp": 125,
+      "fp": 65,
+      "fn": 16,
+      "precision": 0.6578947368421053,
+      "recall": 0.8865248226950354
+    },
+    {
+      "confidence": 0.4,
+      "tp": 119,
+      "fp": 24,
+      "fn": 22,
+      "precision": 0.8321678321678322,
+      "recall": 0.8439716312056738
+    },
+    {
+      "confidence": 0.5,
+      "tp": 106,
+      "fp": 16,
+      "fn": 35,
+      "precision": 0.8688524590163934,
+      "recall": 0.75177304964539
+    },
+    {
+      "confidence": 0.6,
+      "tp": 84,
+      "fp": 9,
+      "fn": 57,
+      "precision": 0.9032258064516129,
+      "recall": 0.5957446808510638
+    },
+    {
+      "confidence": 0.7,
+      "tp": 65,
+      "fp": 2,
+      "fn": 76,
+      "precision": 0.9701492537313433,
+      "recall": 0.46099290780141844
+    }
+  ]
+}

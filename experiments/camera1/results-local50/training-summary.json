@@ -1,0 +1,50 @@
+{
+  "settings": {
+    "epochs": 50,
+    "imgsz": 640,
+    "batch": 2,
+    "workers": 0,
+    "device": "cpu",
+    "seed": 42,
+    "deterministic": true,
+    "amp": false,
+    "cache": false,
+    "plots": false,
+    "optimizer": "AdamW",
+    "lr0": 0.001,
+    "lrf": 0.01,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 0.0,
+    "close_mosaic": 0,
+    "patience": 0,
+    "save": true,
+    "val": true,
+    "rect": false
+  },
+  "manifest_sha256": "250bb16c086dbde0b80ebca90b6436e32b853ebd43f5c6da8a92fb4a5a7c54aa",
+  "initial_model_sha256": "9b09cc8bf347f0fc8a5f7657480587f25db09b34bf33b0652110fb03a8ad4fef",
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.22624-SP0",
+    "processor": "AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD",
+    "cpu_threads": 7,
+    "cuda_available": false,
+    "packages": {
+      "ultralytics": "8.4.204",
+      "torch": "2.15.0",
+      "torchvision": "0.29.2",
+      "numpy": "2.5.4",
+      "opencv-python": "5.0.0.93",
+      "psutil": "7.2.2"
+    },
+    "process_peak_memory_bytes": 1099481088,
+    "process_rss_bytes": 455598080
+  },
+  "wall_seconds": 10966.9224798,
+  "epochs_completed": 50,
+  "comparison_checkpoint": "training/weights/last.pt",
+  "checkpoint_sha256": {
+    "last": "6004036105fce83d9252e07d3053b8744d7f25fd85b16dd97550fa08071b46a3",
+    "best": "2324faa4d91124bdfcb3603aa4fdb71966a13f18d05fa78dc9d66d0944992108"
+  }
+}
